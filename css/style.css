@@ -1,0 +1,389 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.nav-link {
+	padding: 10px!important;
+	margin: 2px;
+	color: #299dd4!important;
+}
+
+.navbar {
+	background-color: #f3f4f6!important;
+}
+
+.nav-box {
+	background-color: #f3f4f6;
+}
+
+.nav-btn {
+	border-radius: 5px!important;
+	margin-left: 10px;
+	background-color: #0c4976!important;
+	border: 1px solid #4a779a!important;
+}
+
+.banner {
+	background-image: url('../img/STRATEGYSHOP - Final-02.png');
+	width: 100%;
+	height: 80vh;
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: 100% 100%;
+}
+
+.jb-box {
+    margin-left: 80px!important;
+    padding-top: 138px!important;
+    margin-bottom: 10px!important;
+}
+
+.p-text {
+	color: #3eb1db;
+}
+
+.card-box {
+	width: 50%!important;
+}
+
+.banner-2 {
+	background-color: #0c4976!important;
+	background-size: 100% 100% ;
+	background-repeat:no-repeat;
+	width: 100%;
+	height: auto;
+}
+
+.h-r {
+	background-color: #44c9f6;
+	width: 55%;
+	height: 1px;
+}
+
+.banner-box {
+	width: 75%!important;
+}
+
+.form-box {
+	background-color: #ffffff;
+	padding-bottom: 0!important;
+	box-shadow: 5px 1px 18px #888888;
+}
+
+.form-row {
+	padding: 3px;
+}
+
+.last-row {
+	background-color: #ffffff!important;
+}
+
+.form-control {
+	background-color: #0c4976!important;
+}
+
+.btn-form {
+	background-color: #0c4976!important;
+	color: white;
+	border-radius: 30px!important;
+	width: 120px;
+	padding-left: 19px!important;
+	padding-bottom: 5px!important;
+	line-height: 2;
+}
+
+.btn-form i {
+	font-size: 20px;
+	margin-left: 12px;
+	margin-top: 3px;
+	padding-top: 5px;
+	font-weight: 400;
+	background-color: #44c9f6;
+	border-radius: 50px;
+	width: 31px;
+	height: 30px;
+}
+
+
+.lower-footer {
+	height: 5vh;
+	background-color: #0a90cd;
+}
+
+.lower-icons li {
+	margin: 3px!important;
+	background-color: #919294;
+	height: 25px;
+	width: 27px;
+	text-align: center;
+}
+
+.lower-icons li i {
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	padding-bottom: 4px!important;
+}
+
+.lower-icons li:hover {
+	cursor: pointer;
+	background-color: #c5161d;
+}
+
+.use-full-links {
+	margin-left: -70px;
+}
+
+.use-full-links ul {
+	list-style: none;
+	margin-left: -7px;
+}
+
+.use-full-links ul li::before {
+	content: "\2022";
+	color: #919294;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.use-full-links ul li a {
+	color: #919294;
+	text-decoration: none;
+}
+
+.card {
+	border: none!important;
+}
+
+.card-body {
+	height: auto;
+}
+
+.card-body img {
+	width: 160px!important;
+}
+
+.card-body:hover {
+	box-shadow: 4px 1px 18px #888888;
+	border-radius: 10px;
+	color: #0a90cd;
+	cursor: pointer;
+}
+.hidden{
+	opacity: 0!important;
+	transition: opacity 1s!important;
+
+}
+.nav-box-1{
+	width: 75%!important;
+}
+.hidden .btn{
+	height: 20px!important;
+	padding-top: 0!important;
+}
+.card-body:hover .hidden{
+opacity: 1!important;
+
+}
+.footer-box ul li a{
+	color: #919294;
+	text-decoration: none;
+}
+
+::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #fff!important;
+	opacity: 1;
+	/* Firefox */
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: #fff!important;
+}
+
+::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: #fff!important;
+}
+
+
+
+@media (max-width: 374.98px){
+}
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+	.navbar-brand{
+		margin-left: 0px!important;
+		padding: 0px!important;
+
+	}
+	.banner {
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: 100% 100%;
+}
+
+	.navbar{
+		    padding: 0.5rem 0rem!important;
+	}
+	.jb-box-1{
+		margin-top: 40px;
+	}
+	.jb-box {
+    margin-left: 24px!important;
+    padding-top: 70px!important;
+    margin-bottom: 10px!important;
+}
+.jb-box-2{
+	    padding-right: 0px!important;
+    padding-left: 15px!important;
+    margin-left: 0px!important;
+}
+.jb-box-2 p{
+	font-size: 14px;
+}
+	.nav-box{
+		padding: 1px!important;
+	}
+	.navbar-brand img{
+		width: 120px;
+		padding: 0!important;
+		margin: 0!important;
+	}
+	.jumbotron h3{
+		font-size: 18px;
+	}
+	.jumbotron h1{
+		font-size: 24px;
+	}
+	.card-box {
+    width: 100%!important;
+}
+.last-top{
+	    margin-bottom: 15px!important;
+}
+	.botton-banner img{
+		width: 240px;
+		padding: 20px;
+	}
+	.nav-box-1{
+		width: 100%!important;
+	}
+	.use-full-links{
+		margin-left: 0px;
+	}
+	.footer-box-1{
+		padding: 0px;
+		margin-left: 20px;
+		margin: 0px;
+
+	}
+	.banner-box{
+		    padding-right: 0px!important;
+    padding-left: 0px!important;
+    margin-right: 0!important;
+    margin-left: 0!important;
+	}
+	.jumbotron h2{
+		font-size: 20px;
+	}
+	.jumbotron p{
+		width: 100%!important;
+		font-size: 16px;
+	}
+	.footer-box .container{
+		width: 100%!important;
+	}
+	.footer-box-1 img{
+		width: 150px;
+	}
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+	.use-full-links{
+		margin-left: 50px;
+	}
+	.banner {
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: 100% 100%;
+}
+	.footer-box .container{
+		width: 100%!important;
+	}
+	.jumbotron h2{
+		font-size: 23px;
+	}
+	.jumbotron p{
+		width: 100%!important;
+		font-size: 15px;
+	}
+ }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+	.use-full-links{
+		margin-left: 20px;
+	}
+	.jumbotron h2{
+		font-size: 24px;
+	}
+	.jumbotron p{
+		width: 100%!important;
+		font-size: 16px;
+	}
+ }
+ .banner {
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: 100% 100%;
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	.use-full-links{
+		margin-left: 50px;
+	}
+	.nav-box-1{
+		width: 85%!important;
+	}
+	.jb-box {
+    margin-left: 36px!important;
+    padding-top: 170px!important;
+    margin-bottom: 10px!important;
+}
+ }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+	.jb-box {
+    margin-left: 23px!important;
+    padding-top: 170px!important;
+    margin-bottom: 10px!important;
+}
+
+.banner {
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: 100% 100%;
+}
+ }
