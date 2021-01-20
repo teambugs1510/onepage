@@ -223,6 +223,9 @@ opacity: 1!important;
 		padding: 0px!important;
 
 	}
+	/* .botton-bannerer figure img{
+		max-width: 190px;
+	} */
 	.banner {
 	width: 100%;
 	height: auto;
@@ -270,9 +273,9 @@ opacity: 1!important;
 .last-top{
 	    margin-bottom: 15px!important;
 }
-	.botton-banner img{
-		width: 240px;
-		padding: 20px;
+	.botton-bannerer figure img{
+		width: 200px;
+		padding: 17px;
 	}
 	.nav-box-1{
 		width: 100%!important;
